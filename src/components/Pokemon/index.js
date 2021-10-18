@@ -14,13 +14,15 @@ class Pokemon extends Component {
 				<div className='image-container'>
 					<img src={image} alt={`Pokemon: ${this.props.name}`} />
 				</div>
-				<h2>{this.props.name.toUpperCase()}</h2>
-				<ul>
-					<li>Attack: {this.props.attack}</li>
-					<li>Defense: {this.props.defense}</li>
-					<li>HP: {this.props.hp}</li>
-				</ul>
-				<h3>{this.props.type.join(' | ')}</h3>
+				<div className='infos'>
+					<h2>{this.props.name.toUpperCase()}</h2>
+					<ul>
+						<li className='attack'>Attack: {this.props.attack}</li>
+						<li className='defense'>Defense: {this.props.defense}</li>
+						<li className='hp'>HP: {this.props.hp}</li>
+					</ul>
+					<h3 className='type'>{this.props.type.join(' | ')}</h3>
+				</div>
 			</div>
 		);
 	}

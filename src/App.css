@@ -32,19 +32,18 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 100px;
+	gap: 150px;
 }
 
 .pokemon {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 3px solid transparent;
+	border: 0px solid transparent;
 	border-radius: 25px;
 	width: 300px;
 	gap: 25px;
 	padding-top: 20px;
-	padding-bottom: 20px;
 	font-size: 20px;
 	font-family: 'Lucida Sans';
 	background: chartreuse;
@@ -54,6 +53,59 @@ body {
 
 .pokemon:hover {
 	transform: scale(1.03);
+}
+
+.infos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	width: 300px;
+	padding: 20px 0px;
+	background-color: #fee2f8;
+	background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+	border-radius: 25px;
+}
+
+.infos h2 {
+	font-weight: bold;
+}
+
+.infos li {
+	margin: 10px 0;
+}
+
+.attack {
+	padding: 3.5px 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: #3f0d12;
+	background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+.defense {
+	padding: 3.5px 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: #537895;
+	background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+
+.hp {
+	padding: 3.5px 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: #3bb78f;
+	background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+}
+
+.type {
+	padding: 5px 10px;
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #f39f86;
+	background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
 }
 
 .image-container img {
