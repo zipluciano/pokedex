@@ -2,7 +2,7 @@
 
 The focus of this repo is train basics concepts of React with classes.
 
-![front page]('front_page.jpg')
+<img src="./front_page.jpg" alt="front page">
 
 # Getting Started with Create React App
 
