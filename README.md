@@ -2,6 +2,8 @@
 
 The focus of this repo is train basics concepts of React with classes.
 
+![front page]('front_page.jpg')
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
