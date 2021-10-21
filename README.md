@@ -1,6 +1,6 @@
 # Pokedex
 
-The focus of this repo used to be, train basics concepts of React with classes, but now hooks are implemented.
+The focus of this repo used to be train basics concepts of React with classes, but now hooks are implemented.
 
 <img src="./front_page.jpg" alt="front page">
 
