@@ -1,5 +1,6 @@
 import { React, Component } from 'react';
 import { changeBgColor } from '../../utils';
+import pokeball from "../../assets/pokeball.png"
 
 class Pokemon extends Component {
 	render() {
@@ -7,7 +8,7 @@ class Pokemon extends Component {
 		const image =
 			this.props.image !== undefined
 				? this.props.image
-				: 'https://www.purarteadesivos.com.br/wp-content/uploads/2017/04/Pok%C3%A9mon-go.png';
+				: pokeball;
 
 		return (
 			<div className='pokemon' style={{ background: bgColor }}>
