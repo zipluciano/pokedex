@@ -6,4 +6,4 @@ Basic project to practice React concepts
 
 # Deployed application
 
-You can see in:
+You can see in: https://pokedex-io39cyra1-zipluciano.vercel.app/
